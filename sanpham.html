@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/asm/css/sanpham.css">
+
+<script src="js/sampham.js"></script>
+<script src="https://kit.fontawesome.com/1c2be09150.js" crossorigin="anonymous"></script>
+
+<body>
+    <nav id="top">
+        <div class="container">
+            <li><a href="http://127.0.0.1:5500/asm/dangnhap.html">Đăng Nhập</a></li>
+            <li><a href="http://127.0.0.1:5500/asm/dangky.html">Đăng Ký</a></li>
+            <span>Thanh Toán</span>
+        </div>
+        <div class="img">
+            <img src="img/LOHO.png" alt="" width="150px">
+        </div>
+        <!-- <div class="input">
+            <div class="input-group">
+                <form role="search" method="get" class="search-form" action="#">
+                    <input name="s" type="search" class="input-sm" placeholder="Nhập sản phẩm bạn cần tìm..." value="">
+                </form>
+            </div>
+        </div> -->
+    </nav>
+    <nav id="menu">
+        <div>
+            <ul class="menu">
+
+                <li><a href="http://127.0.0.1:5500/asm/index.html">TRANG CHỦ</a></li>
+                <li><a href="http://127.0.0.1:5500/asm/gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="http://127.0.0.1:5500/asm/sanpham.html">SẢN PHẨM</a></li>
+                <li><a href="http://127.0.0.1:5500/asm/tintuc.html">TIN TỨC</a></li>
+                <li><a href="http://127.0.0.1:5500/asm/lienhe.html">LIÊN HỆ</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section class="content">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <h1 class="title_col">Sản phẩm</h1>
+            <hr>
+            <div class="breadcrumb">
+                <nav class="woocommerce-breadcrumb">
+                    <a href="">Trang chủ</a>&nbsp;/&nbsp;Sản phẩm
+                </nav>
+            </div>
+        </div>
+        <div class="sanhpham">
+        <div class="box ">
+            <div class="box-heading">Danh mục</div>
+            <div class="box-content ">
+                <ul class="box-category treeview-list treeview">
+                    <li class="expandable">
+                        <div class="hitarea expandable-hitarea"></div>
+                        <a href="" class="">Coffee(6)</a>
+                    </li>
+                    <ul class="sub-cat">
+                        <li class="sub-cats">
+                            <div class="hitarea expandable-hitarea"></div>
+                            <a href="" class="">1000g(3)</a>
+                        </li>
+                        <li class="sub-cats">
+                            <div class="hitarea expandable-hitarea"></div>
+                            <a href="" class="">500g(3)</a>
+                        </li>
+                    </ul>
+                    <li class="expandable">
+                        <div class="hitarea expandable-hitarea"></div>
+                        <a href="" class="">Máy pha cà
+                            phê(5)</a>
+                    </li>
+                    <li class="expandable">
+                        <div class="hitarea expandable-hitarea"></div>
+                        <a href="" class="">test(0)</a>
+                    </li>
+
+                    <div class="cart-icon">
+                        <button class="cart" onclick="dieu_huong()"><i class="fa-solid fa-cart-shopping" ></i><p style="color: black; " id="count">0</p></button>
+                       
+                    </div>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="box3">
+            <div class="box2">
+                <img src="img/cf1.jpg" alt="" width="350px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray;">AROMA</span>
+                    <br>
+                    <span style="color: green;">75.000đ</span>
+                   
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+
+                
+            </div>
+            <div class="box2">
+                <img src="img/cf2.jpg" alt="" width="350px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray;">AMIGO</span>
+                    <br>
+                    <span style="color: green;">75.000đ</span>
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="img/cf.jpg" alt="" width="350px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray;">HARMONY</span>
+                    <br>
+                    <span style="color: green;">75.000đ</span>
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+            </div>
+            </div>
+            <div class="box4">
+            <div class="box2">
+                <img src="img/cf1.jpg" alt="" width="350px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray;">AROMA</span>
+                    <br>
+                    <span style="color: green;">140.000đ</span>
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+                
+            </div>
+            <div class="box2">
+                <img src="img/cf2.jpg" alt="" width="350px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray;">AMIGO</span>
+                    <br>
+                    <span style="color: green;">180.000đ</span>
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="img/cf.jpg" alt="" width="350px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray;">HARMONY</span>
+                    <br>
+                    <span style="color: green;">230.000đ</span>
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="box2">
+                <img src="img/esam03120.s-240x300.png" alt="" width="200px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray; font-size: 15px;">DE’LONGHI ESAM03.120.S</span>
+                    <br>
+                    <span style="color: green;font-size: 11px;">28.330.000đ</span>
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="img/ESAM_4000_B.-240x300.jpg" alt="" width="200px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray;font-size: 15px;">DE’LONGHI ESAM4000.B</span>
+                    <br>
+                    <span style="color: green;font-size: 11px;">22.510.000đ</span>
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="img/PUMP-HIGH-END_SX-240x300.jpg" alt="" width="200px">
+                <hr color="gray" width="200px">
+                <div class="name">
+                    <span style="color: gray; font-size: 11px;">DE’LONGHI LA SPECIALISTA</span>
+                    <br>
+                    <span style="color: green; font-size: 11px;">33.400.000đ</span>
+                    <button style="width: 50px;" onclick="them()"> MUA </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <footer>
+        <div class="box10">
+            <div class="box11">
+
+                <img src="img/LOHO.png" alt="" width="250px">
+
+            </div>
+            <hr width="1000px">
+            <div class="box11">
+                <br>
+                <span style="color:orangered; font-size: 20px;">Liên Hệ</span>
+
+                <br>
+                <span style="color: white; font-size: 20px;">AT12</span>
+
+                <span style="color: white; font-size: 15px;">
+                    <br>
+                    <br>
+                    Địa chỉ: Số 123 Đường Phan Chu Trinh, Quận 10, TP.HCM
+                    <br>
+                    
+                    Điện thoại: 0123.456.789
+                    
+                    <br>
+                    Email: contact@demo.com
+                </span>
+            </div>
+            <div class="box11">
+                <br>
+                <span style="color:orangered; font-size: 20px;">FACEBOOK</span>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous"
+                    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0" nonce="OnTiHkoQ"></script>
+                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width=""
+                    data-height="100" data-small-header="false" data-adapt-container-width="false"
+                    data-hide-cover="false" data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+</body>
+
+</html>

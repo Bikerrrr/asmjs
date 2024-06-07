@@ -1,0 +1,275 @@
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#top {
+    width: 1520px;
+    height: 130px;
+    background-color: #8B0016;
+}
+
+.container {
+    float: right;
+    width: 300px;
+    height: 100px;
+    /* text-align: right; */
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+
+    
+}
+
+.container li a {
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+span {
+    font-size: 14px;
+    color: white;
+
+}
+
+.img {
+
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.input {
+    width: 500px;
+    height: 40px;
+}
+
+
+#menu {
+    width: 1520px;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    float: left;
+    margin-left: 400px;
+    margin-top: 10px;
+
+}
+
+nav.ul {
+    width: 100%;
+}
+
+ul.menu {
+    text-align: center;
+}
+
+.menu>li {
+    float: left;
+    position: relative;
+}
+
+.menu li {
+    padding: 5px 5px;
+    min-width: 120px;
+
+}
+
+.menu li a {
+    color: rgb(185, 52, 52);
+    font-size: 15px;
+
+}
+
+.menu li a:hover {
+    color: burlywood;
+}
+
+header {
+    width: 1520px;
+    height: 420px;
+    /* background-size: 100% 100%;
+    background-image: url(../img/cafe.jpg); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+
+.ground{
+    display: block;
+    position: relative;
+    
+
+
+}
+#background{
+    display: block;
+    
+    
+}
+
+
+#back{
+   
+    margin-left: 100px;
+}
+#next{
+    margin-right: 100px;
+}
+
+.animition{
+
+    /* height: 420px; */
+
+    display: flex;
+    width: 1520px;
+    position: absolute;
+
+    top: 45%; 
+}
+
+.sub {
+    width: 1500px;
+    height: 300px;
+}
+
+.subbanner2_outer {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.data {
+    float: left;
+    padding-left: 30px;
+    
+}
+
+.data img:hover{
+    transform: scale(0.9);
+}
+
+
+
+
+
+.prod {
+    width: 1520px;
+    height: 550px;
+    background-color: rgb(223, 221, 221);
+}
+
+.tab {
+    overflow: hidden;
+    margin-left: 200px;
+}
+
+.tab button.active {
+    
+    font-weight: 600;
+    font-size: 18px;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 0px;
+    
+}
+.box1{
+    margin-left: 200px;
+    width: 75%;
+    height: 450px;
+    background-color: white;
+}
+.box2{
+    float: left;
+    margin-left: 25px;
+    
+}
+.box3{
+    float: left;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+.name{
+    
+    text-align: center;
+}
+.box2 span{
+    font-size: 19px;
+    
+}
+.box2 .name{
+    margin-top: 20px;
+    padding-left: 45px;
+}
+.box2 img:hover{
+    transform: scale(1.1);
+}
+.images{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.images:hover{
+    transform: scale(0.9);
+
+}
+.title{
+    width: 1520px;
+    height: 420px;
+}
+
+.box8{
+    width: 1520px;
+    height: 200px;
+}
+.data1{
+    float: left;
+    padding-left: 10px;
+}
+.box9{
+    margin-left: 150px;
+}
+
+footer{
+    width: 1520px;
+    height: 270px;
+    background-color: #600d0e;
+    float: left;
+}
+.box10{
+    width: 1300px;
+    height: 200px;
+    margin: 20px 200px;
+}
+.box11{
+    float: left;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}

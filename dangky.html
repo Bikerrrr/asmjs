@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="/asm/css/dangky.css">
+
+<script src="js/dangky.js"></script>
+<body>
+
+
+    <nav id="top">
+        <div class="container">
+            <li><a href="http://127.0.0.1:5500/asm/index.html">Trang Chủ</a></li>
+            <span>Thanh Toán</span>
+        </div>
+        <div class="img">
+            <img src="img/LOHO.png" alt="" width="150px">
+        </div>
+        <!-- <div class="input">
+            <div class="input-group">
+                <form role="search" method="get" class="search-form" action="#">
+                    <input name="s" type="search" class="input-sm" placeholder="Nhập sản phẩm bạn cần tìm..." value="">
+                </form>
+            </div>
+        </div> -->
+    </nav>
+    <nav id="menu">
+        <div>
+            <ul class="menu">
+
+                <li><a href="http://127.0.0.1:5500/asm/index.html">TRANG CHỦ</a></li>
+                <li><a href="http://127.0.0.1:5500/asm/gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="http://127.0.0.1:5500/asm/sanpham.html">SẢN PHẨM</a></li>
+                <li><a href="http://127.0.0.1:5500/asm/tintuc.html#">TIN TỨC</a></li>
+                <li><a href="http://127.0.0.1:5500/asm/lienhe.html">LIÊN HỆ</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div class="content">
+		<div class="title">Register</div>
+        <input type="text" placeholder="Họ Và Tên" id="hoten"/>
+		<input type="text" placeholder="E-mail" id="email"/>
+		<input type="password" placeholder="Password" id="pass"/>
+        <input type="password" placeholder="Confirm Password" id="Repass"/>
+
+        
+        
+        <legend>Sở thích</legend>
+
+        <fieldset id="fs2">
+            
+            <input type="checkbox" name="st"><label>Đọc sách</label>
+            <input type="checkbox" name="st"><label>Du lịch</label>
+            <input type="checkbox" name="st"><label>Ẩm thực</label>
+            <input type="checkbox" name="st"><label>Âm nhạc</label>
+            <input type="checkbox" name="st"><label>Khác</label>
+        </fieldset>
+
+
+        
+        <br>
+    
+            <label>Quốc tịch</label><br>
+            <select id="quoctich" class="txt">
+                <option value="0">Chọn quốc tịch</option>
+                <option value="1">Việt Nam</option>
+                <option value="2">Mỹ</option>
+                <option value="3">Campuchia</option>
+            </select>
+            <br>
+        
+        <div id="baoloi"></div>
+		
+		<button id="re" onclick="return kiemtra()">Register</button>
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="box10">
+            <div class="box11">
+
+                <img src="img/LOHO.png" alt="" width="250px">
+
+            </div>
+            <hr width="1000px">
+            <div class="box11">
+                <br>
+                <span style="color:orangered; font-size: 20px;">Liên Hệ</span>
+
+                <br>
+                <span style="color: white; font-size: 20px;">AT12</span>
+
+                <span style="color: white; font-size: 15px;">
+                    <br>
+                    <br>
+                    Địa chỉ: Số 123 Đường Phan Chu Trinh, Quận 10, TP.HCM
+                    <br>
+
+                    Điện thoại: 0123.456.789
+
+                    <br>
+                    Email: contact@demo.com
+                </span>
+            </div>
+            <div class="box11">
+                <br>
+                <span style="color:orangered; font-size: 20px;">FACEBOOK</span>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous"
+                    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0" nonce="OnTiHkoQ"></script>
+                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width=""
+                    data-height="100" data-small-header="false" data-adapt-container-width="false"
+                    data-hide-cover="false" data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    
+</body>
+</html>

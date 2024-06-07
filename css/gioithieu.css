@@ -1,0 +1,125 @@
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+body {
+    width: 1520px;
+    margin: 0 auto;
+}
+#top {
+    width: 1520px;
+    height: 130px;
+    background-color: #8B0016;
+}
+
+.container {
+    float: right;
+    width: 300px;
+    height: 100px;
+    /* text-align: right; */
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+
+    
+}
+
+.container li a {
+        color: white;
+        font-size: 14px;
+}
+
+
+
+
+span {
+    font-size: 14px;
+    color: white;
+
+}
+
+.img {
+
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.input {
+    width: 500px;
+    height: 40px;
+}
+#menu {
+    width: 1520px;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    float: left;
+    margin-left: 400px;
+    margin-top: 10px;
+
+}
+
+nav.ul {
+    width: 100%;
+}
+
+ul.menu {
+    text-align: center;
+}
+
+.menu>li {
+    float: left;
+    position: relative;
+}
+
+.menu li {
+    padding: 5px 5px;
+    min-width: 120px;
+
+}
+
+.menu li a {
+    color: rgb(185, 52, 52);
+    font-size: 15px;
+
+}
+
+.menu li a:hover {
+    color: burlywood;
+}
+article{
+    width: 1200px;
+    height: 2000px;
+}
+.entry-title{
+    font-size: 20px;
+}
+footer{
+    width: 1520px;
+    height: 270px;
+    background-color: #600d0e;
+    float: left;
+}
+.box10{
+    width: 1300px;
+    height: 200px;
+    margin: 20px 200px;
+}
+.box11{
+    float: left;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
